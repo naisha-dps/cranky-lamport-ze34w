@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="https://www.carlogos.org/car-logos/tesla-logo-2200x2800.png"
+            alt="Error"
+          />
+        </div>
+        <div class="tesla">
+          <img
+            src="https://static.theceomagazine.net/wp-content/uploads/2018/10/15093202/elon-musk.jpg"
+            alt="Error"
+          />
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="vision.html">Vision</a></li>
+          <li><a href="mission.html">Mission</a></li>
+          <li><a href="register.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <br />
+      <div class="fill">
+        <h1>
+          <b>Please describe your experience by filling the form below:-</b>
+        </h1>
+      <br />
+      <form action="form.php">
+        <div class="name">
+          <label for="full-name">Full Name</label>
+          <input type="text" placeholder="First and last" required="" />
+        <br />
+        <br>
+        <label for="experience"</label>
+          Please describe your experience on our website?</label>
+        <input type="text" placeholder="Experience" required=""/>
+        <label for="Experienceid">
+          <br />
+          <br>
+          <input
+            type="radio"
+            value="Section A"
+            name="Section"
+            id="Experienceid"
+          />Excellent
+          <input
+            type="radio"
+            value="Section B"
+            name="Section"
+            id="Experienceid"
+          />Very good
+          <input
+            type="radio"
+            value="Section C"
+            name="Section"
+            id="Experienceid"
+          />Good
+          <input
+            type="radio"
+            value="Section D"
+            name="Section"
+            id="Experienceid"
+          />Satisfactory
+          <input
+            type="radio"
+            value="Section E"
+            name="Section"
+            id="Experienceid"
+          />Bad
+        </label>
+        <br />
+        <br />
+        <label for="Attend"</label>
+         Have you attended a SNL before?</label>
+        <input
+          type="radio"
+          value="Section A"
+          name="Section"
+          id="Experienceid"
+        />Yes
+        <input
+          type="radio"
+          value="Section B"
+          name="Section"
+          id="Experienceid"
+        />No
+        <br />
+        <br />
+        <input type="checkbox" id="Attend" name="Blue" />
+        <label for="Attend">Have you already attended this SNL?</label>
+        <br />
+        <textarea
+          name="Feel"
+          id="Feel"
+          cols="30"
+          rows="10"
+          placeholder="Describe your experience if you did." required=""
+        ></textarea>
+        <br />
+        <br />
+        <select name="product" id="product">
+          <option value="no car">How many Tesla cars do you own?</option>
+          <option value="yes">0</option>
+          <option value="yes">1</option>
+          <option value="yes">2</option>
+          <option value="yes">3</option>
+        </select>
+        <br>
+        <div class="submit">
+          <br>
+        <input type="Submit" value="RSVP">
+      </div>
+      </div>
+      </form>
+    </main>
+    <br>
+    <footer class="flex-all-center">
+      <p>Copyright &copy; snltesla.com</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Simonetta&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: black;
+  font-family: "Playfair Display", serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 125px;
+  padding: 0 25px;
+}
+
+.tesla img {
+  width: 300px;
+  padding: 0 25px;
+}
+
+nav {
+  display: flex;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+.slider {
+  width: 80vw;
+  margin: 12px auto;
+}
+
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+
+.card h2 {
+  font-family: "Bebas Neue", cursive;
+  font-display: bold;
+  font-size: 50px;
+}
+
+.content h2 {
+  font-family: "Playfair Display", serif;
+  justify-content: center;
+}
+
+.car img:hover {
+  width: 100px;
+}
+
+.car img {
+  width: 500px;
+  padding: 100px;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+}
+
+.about {
+  font-family: "Playfair Display", serif;
+}
+
+.event {
+  font-family: "Simonetta", cursive;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+}
+
+.slider {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.she {
+  font-family: "Simonetta", cursive;
+  font-size: 1.5rem;
+}
+
+.musk {
+  text-align: center;
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: 24px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.musk {
+  position: relative;
+  right: 300;
+}
+
+.elon {
+  position: relative;
+  right: 300;
+}
+
+.elon-musk {
+  position: relative;
+  left: 150;
+  bottom: 640;
+}
+
+.musk img {
+  width: 380px;
+}
+
+.elon img {
+  width: 380px;
+}
+
+.elon-musk img {
+  width: 380px;
+}
+
+.musk h3 {
+  font-family: "Simonetta", cursive;
+  margin: 20px;
+}
+
+.elon {
+  text-align: center;
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: 24px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.elon h3 {
+  font-family: "Simonetta", cursive;
+  margin: 20px;
+}
+
+.elon-musk {
+  text-align: center;
+  background-color: white;
+  border-radius: 50px;
+  margin-bottom: 24px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.elon-musk h3 {
+  font-family: "Simonetta", cursive;
+  margin: 20px;
+}
+
+.box img {
+  width: 500px;
+  padding: 100px;
+}
+
+.vision {
+  font-family: "Simonetta", cursive;
+  font-size: 20px;
+}
+
+.mission {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  display: bold;
+}
+
+.text {
+  font-family: "Simonetta", cursive;
+}
+
+.statement {
+  font-family: "Simonetta", cursive;
+}
+
+.value {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  display: bold;
+}
+
+.core {
+  font-family: "Simonetta", cursive;
+}
+
+.position {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  display: bold;
+}
+
+.me {
+  font-family: "Simonetta", cursive;
+}
+
+.contact {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  display: bold;
+}
+
+.us {
+  font-family: "Simonetta", cursive;
+}
+
+.fill {
+  font-family: "Simonetta", cursive;
+}
+
+.name {
+  font-family: "Simonetta", cursive;
+  font-size: 25px;
+}
+
+.submit {
+  font-family: "Simonetta", cursive;
+  font-size: 25px;
+}
+
+.thanks {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 30px;
+  align-items: center;
+}
+
+footer {
+  height: 12vh;
+  background-color: black;
+  color: white;
+  font-family: "Playfair Display", serif;
+}

@@ -1,0 +1,21 @@
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height: 27px;
+  padding: 5px 10px;
+  color: white;
+  background: blue;
+  border: 2px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+@media screen and (max width=800px) {
+  body {
+    background-color: greenyellow;
+  }
+}
